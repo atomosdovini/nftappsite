@@ -1845,9 +1845,10 @@
 		padding: 20px 0 0;
 	}
 	#header-06 .intro-text .btn_video_wrapper {
-		display: inline-block;
+	    display: flex;
 		width: 100%;
 		text-align: center;
+		justify-content: center;
 	}
 	#header-06 .intro-text .btn_video_wrapper a {
 		margin: 0;
@@ -1873,6 +1874,9 @@
 	#header-06 .video_wrapper {
 		margin: 0px;
 		margin-top: 20px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 	#header-06 .countdown_time {
 		margin: 90px 0 0;
@@ -2294,6 +2298,9 @@
 		justify-content: center;
 		margin-top:10%;
 	}
-
+	video.style_video__1Zarh {
+		border-radius: 20px!important;
+		height: 500px!important;
+	}
 
 }

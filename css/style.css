@@ -1603,9 +1603,9 @@ select {
     padding: 40px 0 140px;
     z-index: 2;
     position: relative;
-    margin-top: 1%;
+    margin-top: 8%;
 }
-}
+
 #about_cryptonic_06 .header-shape {
 	position: absolute;
 }
@@ -1982,7 +1982,7 @@ select {
 	z-index: -1;
 }
 #token_distribution_06 {
-	padding: 150px 0;
+	padding: 0px 0;
 	background: transparent;
 }
 #token_distribution_06 .sub-title {
@@ -2370,24 +2370,24 @@ select {
 	left: 50%;
 	height: 10px;
 	width: 10px;
-	background: linear-gradient(to left, #f879b6 0%, #9982ed 100%);
+    background: linear-gradient(to left, #1ecbfc 0%, #1ecbfc 100%);
 	content: "";
 	border-radius: 50%;
 	transform: translate(-50%, -50%);
 }
 #roadmap_06 .location_04 .location_wrapper span:after {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	height: 40px;
-	width: 40px;
-	border: 1px solid #f979b6;
-	content: "";
-	border-radius: 50%;
-	transform: translate(-50%, -50%);
-	background: linear-gradient(to left, #f879b6 0%, #9982ed 100%);
-	z-index: -2;
-	opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #8fe5fd;
+    content: "";
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, #1ecbfc 0%, #1ecbfc 100%);
+    z-index: -2;
+    opacity: 0.5;
 }
 #roadmap_06 .location_04 .location_wrapper .location {
 	position: absolute;
@@ -2518,7 +2518,7 @@ select {
 	position: relative;
 }
 #team_membar_06 .single-wrapper .team-single-item figure .member-img:before {
-	background: rgba(14, 4, 77, 0.5);
+	background: rgba(1, 46, 56, 0.5);
 	content: "";
 	left: 0;
 	position: absolute;
@@ -2591,7 +2591,7 @@ select {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background: linear-gradient(to bottom, #ee7abc 0%, #a481e7 100%);
+	background: linear-gradient(to bottom, #4af0da 0%, #a481e7 100%);
 	left: 0;
 	right: 0;
 	content: "";
@@ -3344,8 +3344,11 @@ select {
 
 .post-edit {
     position: absolute;
-    margin-right: 45%;
-	margin-top: 40%;
+    margin-left: -22%;
+    margin-top: 40%;
+    -webkit-box-shadow: 1px 9px 16px -6px rgb(0 0 0 / 88%);
+    box-shadow: 5px 9px 16px -6px #6c757d;
+    border-radius: 20px;
 }
 
 .team-single-item.wow.fadeInUp {
@@ -3450,6 +3453,11 @@ p {
     align-content: space-around;
 	width: 100vw;
 }
+
+
+
+
+
 @media only screen and (max-width: 767px) {
 
 .below-video {
