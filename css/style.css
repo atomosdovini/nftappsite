@@ -3454,8 +3454,10 @@ p {
 	width: 100vw;
 }
 
-
-
+.bounces{
+width: 100%;
+height: auto;
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -3463,11 +3465,19 @@ p {
 .below-video {
 	top: 180px;
 }
-.bounce-easy{
-	width: 360px;
-}
+
 .row.easy-monetize {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
+.bounces{
+	width: 360px;
+	height: auto;
+	}
+	.row-inverse{
+		flex-direction: column-reverse;
+	}
+	.padding-none{
+		margin-bottom: 10px!important;
+	}
 }

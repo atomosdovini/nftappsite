@@ -4,7 +4,6 @@
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
 	.row.easy-monetize {
 		display: flex;
-		flex-direction: column-reverse!important;
 	}
 	.navbar-brand {
 		position: absolute;
@@ -863,11 +862,11 @@
 	.header .navbar {
 		padding: 15px 0 15px !important;
 		z-index: 99;
-		background: #020c59 !important;
+		background: #ffffff !important;
 	}
 	.header .navbar .navbar-nav .nav-item .nav-link {
 		padding: 10px 15px !important;
-		color: #ffffff !important;
+		color: #000000 !important;
 		font-size: 15px;
 		display: inline-block;
 	}
@@ -898,7 +897,7 @@
 	}
 	/* index-03 */
 	.navbar-light .navbar-toggler {
-		color: #fff;
+		color: rgb(0, 0, 0);
 		border: none;
 		cursor: pointer;
 		margin-left: 3%;
